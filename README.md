@@ -34,3 +34,4 @@ https://jupyter.org/try
 * https://github.com/empathy87/storytelling-with-data
 * https://wpdatatables.com/types-of-charts/
 * https://advait.org/files/sarkar_2015_uncertainty_vis.pdf
+* https://clauswilke.com/dataviz/index.html
