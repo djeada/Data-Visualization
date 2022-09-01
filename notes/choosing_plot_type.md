@@ -10,6 +10,10 @@ Graphs, charts, maps, and diagrams aid in the understanding of complicated data,
 There is no silver bullet. Each plot type has its advantages and disadvantages. Before deciding on a plot type, consider the following questions:
 
 * What do you wish to emphasize or demonstrate?
+  - How much / what percent?
+  - Trends
+  - Correlation
+  - Geographic insights  
 * Which visualization makes the data as easy to read and analyze as possible?
 * What is the standard technique of displaying data in your field (to avoid confusion)?
 * Does it still make sense in black and white (some people may want to print out your plots)? 
