@@ -12,7 +12,7 @@ There is no silver bullet. Each plot type has its advantages and disadvantages. 
 * What do you wish to emphasize or demonstrate?
 * Which visualization makes the data as easy to read and analyze as possible?
 * What is the standard technique of displaying data in your field (to avoid confusion)?
-* Does it still make sense in black and white? (some people still print papers)
+* Does it still make sense in black and white (some people may want to print out your plots)? 
 
 Let's look at different graphs and charts grouped by their purpose:
 
