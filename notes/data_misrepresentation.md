@@ -27,3 +27,11 @@ In 1983, Edward Tufte's book "The Visual Display of Quantitative Information" de
 $$ Lie\ Factor = \frac{size\ of\ effect\ in\ graphic}{size\ of\ effect\ in\ data} $$
 
 $$ size\ of\ effect =  \frac{\vert\ {last\ value}-{first\ value}\ \vert}{first\ value} $$
+
+## Literature
+
+"How to Lie with Statistics" is a book written by Darrel Huff in 1954 with many examples that are still relevant today.
+
+* Choosing the "middle" as arithmetic average instead of median
+* Tampering with the scales.
+* Visualizing a factor 2.
