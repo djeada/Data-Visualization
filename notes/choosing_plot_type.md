@@ -108,7 +108,7 @@ To assess if the sample data could be described by certain distribution, you can
 ### 1. Histogram
 
 A histogram depicts the distribution of a variable.
-When we have measurements taken with reasonable precision, we have a situation in which each value is unique, therefore instead of presenting counts of a single value (as in a box plot), we depict the frequency of data points falling within a specified range.
+When we have measurements taken with reasonable precision, we have a situation in which each value is unique, therefore instead of presenting counts of a single value (as in a bar chart), we depict the frequency of data points falling within a specified range.
 We divide the entire range of a value between min and max into n equal parts called bins and then illustrate how frequently data points fall into each bin.
 The x-axis represents the range, while the y-axis represents the frequency.
 
@@ -129,7 +129,9 @@ Density plots are essentially smooth histograms. This provides for a more accura
 
 ### 3. Box Plot
 
-A box plot is a graphical representation of the distribution of data. A box plot is usually based on five essential summary statistics:
+A box plot is a graphical representation of the distribution of data. The idea is that a box will represent the 50% of the middle values, the top 25% will be shown above the box and bottom 25% will be shown below the box. Outliers are shown outside of the box area.
+
+A box plot is usually based on five essential summary statistics:
 * The minimum (excluding outliers)
 * The first quartile
 * The median (or second quartile)
