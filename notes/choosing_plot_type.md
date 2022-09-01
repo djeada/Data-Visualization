@@ -107,12 +107,15 @@ To assess if the sample data could be described by certain distribution, you can
 
 ### 1. Histogram
 
-Displays a variable's distribution. The range is represented by the x-axis, while the frequency is represented by the y-axis.
+A histogram depicts the distribution of a variable.
+When we have measurements taken with reasonable precision, we have a situation in which each value is unique, therefore instead of presenting counts of a single value (as in a box plot), we depict the frequency of data points falling within a specified range.
+We divide the entire range of a value between min and max into n equal parts called bins and then illustrate how frequently data points fall into each bin.
+The x-axis represents the range, while the y-axis represents the frequency.
 
 ![Capture](https://user-images.githubusercontent.com/37275728/184005703-160ea802-b4e9-49c0-be20-391941e3bcef.PNG)
 
 #### Usecases
-* Weight distribution among all people of a particular country.
+* Average temperature distribution for a specific place. 
 * Salary distribution among software engineers in a specific city.
 
 ### 2. Density Plot
