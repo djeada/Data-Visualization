@@ -26,7 +26,9 @@ Statistics:
 * Sample variance of y = 4.125
 * Corelation between x and y = 0.816
 * Linear regression y = 0.5x + 3
- 
+
+Plots:
+
 ![1](https://user-images.githubusercontent.com/37275728/187880169-d0bce3a8-46d6-4709-8205-2d2b1403309e.PNG)
 
 ![2](https://user-images.githubusercontent.com/37275728/187880179-fbbb5c3e-7d94-46d1-9b67-698b2b8e3591.PNG)
