@@ -1,4 +1,4 @@
-# Data-Visualisation
+# Data Visualization
 Code snippets and thoughts on data visualization.
 
 ## Purpose
