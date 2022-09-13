@@ -36,3 +36,4 @@ https://jupyter.org/try
 * https://advait.org/files/sarkar_2015_uncertainty_vis.pdf
 * https://clauswilke.com/dataviz/index.html
 * https://github.com/matplotlib/cheatsheets
+* https://jonchar.net/notebooks/matplotlib-styling/
