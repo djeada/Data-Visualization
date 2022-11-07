@@ -12,6 +12,7 @@ The purpose of this repository is to collect short code snippets demonstrating t
 * https://www.kaggle.com/datasets
 * https://console.cloud.google.com/marketplace/browse?filter=solution-type:dataset
 * https://data.gov/https://github.com/garrettj403/SciencePlotshttps://github.com/garrettj403/SciencePlots
+* https://github.com/awesomedata/awesome-public-datasets
 
 ## Requirements
 
