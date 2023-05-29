@@ -1,48 +1,74 @@
-# Data Visualization
-Code snippets and thoughts on data visualization.
+# Data Visualization Guide and Code Snippets
 
-## Purpose
+Welcome! This repository is dedicated to the exploration of various data visualization frameworks through bite-sized code snippets, as well as providing insights on effective data visualization techniques and principles. 
 
-The purpose of this repository is to collect short code snippets demonstrating the advantages and limitations of various data visualization frameworks, as well as my thoughts on data visualization in general. 
+## 🎯 Purpose
 
-## Where to find data?
+The goal of this repository is to serve as a practical guide for understanding the strengths and drawbacks of diverse data visualization frameworks. Additionally, it encompasses my own reflections on the topic of data visualization.
 
-* https://scikit-learn.org/stable/datasets/toy_dataset.html
-* https://www.tableau.com/learn/articles/free-public-data-sets
-* https://www.kaggle.com/datasets
-* https://console.cloud.google.com/marketplace/browse?filter=solution-type:dataset
-* https://data.gov/https://github.com/garrettj403/SciencePlotshttps://github.com/garrettj403/SciencePlots
-* https://github.com/awesomedata/awesome-public-datasets
+## 📚 Data Sources
 
-## Requirements
+Looking for datasets to use for your visualization practices? Here are a few online sources to obtain public datasets:
 
-* Python 3.8+
+- [Scikit-Learn Toy Datasets](https://scikit-learn.org/stable/datasets/toy_dataset.html)
+- [Tableau Public Data Sets](https://www.tableau.com/learn/articles/free-public-data-sets)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [Google Cloud Public Datasets](https://console.cloud.google.com/marketplace/browse?filter=solution-type:dataset)
+- [U.S. Government's Open Data](https://data.gov/)
+- [Awesome Public Datasets on GitHub](https://github.com/awesomedata/awesome-public-datasets)
 
-## How do I run the notebooks?
+## 🛠️ Requirements
 
-You do not need to install anything locally on your PC. You may run all of the examples on the official website of Jupyter Notebooks using a demo version: 
+Ensure that you have Python 3.8 or above installed to execute the notebooks.
 
-https://jupyter.org/try
+## 🚀 Running Notebooks
 
-## Additional resources:
+To run these notebooks, you have two options:
 
-* Make matplotlib graphs look like they belong in a scientific paper: https://github.com/garrettj403/SciencePlots
-* Cyberpunk matplotlib style: https://github.com/dhaitz/mplcyberpunk
+1. **Online:** You can use the official Jupyter Notebooks online platform without installing anything on your local machine. Try it out here:
 
-## Refrences:
+    [Jupyter Notebook Demo](https://jupyter.org/try)
 
-* https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/
-* https://github.com/empathy87/storytelling-with-data
-* https://wpdatatables.com/types-of-charts/
-* https://advait.org/files/sarkar_2015_uncertainty_vis.pdf
-* https://clauswilke.com/dataviz/index.html
-* https://github.com/matplotlib/cheatsheets
-* https://jonchar.net/notebooks/matplotlib-styling/
+2. **Locally:** If you wish to run notebooks on your local machine, follow the steps below:
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+    - Clone the repository: 
+      ```
+      git clone https://github.com/djeada/Data-Visualization.git
+      ```
+    - Navigate to the cloned repository:
+      ```
+      cd Data-Visualization
+      ```
+    - Install Jupyter Notebook if you haven't done so already:
+      ```
+      pip install notebook
+      ```
+    - Run Jupyter Notebook:
+      ```
+      jupyter notebook
+      ```
 
-Please make sure to update tests as appropriate.
+## 📚 Additional Resources
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+- Scientific-looking matplotlib graphs: [SciencePlots](https://github.com/garrettj403/SciencePlots)
+- Cyberpunk style matplotlib graphs: [MPLCyberpunk](https://github.com/dhaitz/mplcyberpunk)
+
+## 📖 References
+
+Find more detailed insights on data visualization from the resources listed below:
+
+- [Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)
+- [Storytelling with Data](https://github.com/empathy87/storytelling-with-data)
+- [Types of Charts](https://wpdatatables.com/types-of-charts/)
+- [Uncertainty in Visualization](https://advait.org/files/sarkar_2015_uncertainty_vis.pdf)
+- [Data Visualization: A Practical Introduction](https://clauswilke.com/dataviz/index.html)
+- [Matplotlib CheatSheets](https://github.com/matplotlib/cheatsheets)
+- [Styling with Matplotlib](https://jonchar.net/notebooks/matplotlib-styling/)
+
+## 🙏 Contributing
+
+Contributions are warmly welcomed. If you are considering large changes, please open an issue first to discuss your ideas. Remember to update tests as required for your changes.
+
+## 📄 License
+
+This project is licensed under the terms of the [MIT license](https://choosealicense.com/licenses/mit/).
