@@ -48,6 +48,23 @@ To run these notebooks, you have two options:
       jupyter notebook
       ```
 
+## Notes
+
+| # | Description | Notes |
+| --- | --- | --- |
+| 1 | Introduction to data visualization, including its importance and use cases. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/why_visualize_data.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 2 | Covers the fundamental elements of visual representation in data visualization. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/visual_grammar.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 3 | Explains how to extract and process data for visualization. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/extracting_data.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 4 | Guidance on selecting a visualization framework best suited for your specific use case. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/choosing_framework.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 5 | Quick reference guide and cheat sheet for the Matplotlib data visualization library. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/matplotlib_cheat_sheet.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 6 | Quick reference guide and cheat sheet for the Altair data visualization library. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/altair_cheat_sheet.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 7 | Quick reference guide and cheat sheet for the Plotly data visualization library. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/plotly_cheat_sheet.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 8 | Detailed guide on selecting the appropriate type of plot based on the nature of the data. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/choosing_plot_type.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 9 | In-depth discussion on representing uncertainty in data through error bars. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/error_bars.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 10 | Special topic focusing on creating and interpreting racing charts. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/racing_charts.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 11 | Discusses the ethics of data visualization and how to avoid data misrepresentation. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/data_misrepresentation.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+| 12 | Covers advanced topics on how to create dashboards for presenting multiple visualizations. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/dashboards.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
+
 ## 📚 Additional Resources
 
 - Scientific-looking matplotlib graphs: [SciencePlots](https://github.com/garrettj403/SciencePlots)
