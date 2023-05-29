@@ -65,6 +65,8 @@ In certain scenarios, the existence of a relationship between variables isn't su
 
 Line charts depict quantitative values over time and are created by connecting data points on a Cartesian coordinate grid. The y-axis usually has a numerical value, while the x-axis represents a timeframe or a series of intervals. The orientation of the graph's line can indicate patterns in variable changes.
 
+![line_chart](https://github.com/djeada/Data-Visualization/assets/37275728/aa5c38b0-c6c1-4254-8a93-6e0a0658fe6c)
+
 **Usecases:**
 - Visualizing revenue, energy consumption, or Google searches over time.
 - Tracking stock prices and identifying trends.
@@ -72,6 +74,8 @@ Line charts depict quantitative values over time and are created by connecting d
 ### 2. Area Chart
 
 An area chart builds upon the concept of a line chart. The colored area signifies the distribution of the total value over time. These charts are excellent for showcasing changes between two or more data points.
+
+![area_chart](https://github.com/djeada/Data-Visualization/assets/37275728/df584f9e-5f35-47c6-bc24-765556241c6d)
 
 **Usecases:**
 - Visualizing total sales or active users over time.
@@ -85,7 +89,7 @@ An area chart builds upon the concept of a line chart. The colored area signifie
 
 A stack area chart is an extension of an area chart, showing the values of multiple groups on a single graph with group values stacked on top of each other.
 
-![Stack Area Chart Example](https://user-images.githubusercontent.com/37275728/184005506-e11296cb-a330-4def-b193-cdb4e57b1c6d.PNG)
+![stacked_area_chart](https://github.com/djeada/Data-Visualization/assets/37275728/44dd40a9-a2f5-4c62-843b-447ac5cdd87a)
 
 **Usecases:**
 - Visualizing active users over time by segment or total revenue over time by country.
@@ -161,6 +165,8 @@ Pie charts are commonly used to represent part-to-whole distributions. They give
 
 A grouped bar chart, also known as a multi-set bar chart, is used when two or more data series are presented side-by-side and categorized on the same axis.
 
+![grouped_bar_chart](https://github.com/djeada/Data-Visualization/assets/37275728/5d49c56f-aeeb-4338-b1db-ad92a79ed7d7)
+
 **Usecases:**
 - Visualizing quarterly sales per region or total car sales by producer.
 - Comparing the performance of different products across different months.
@@ -172,6 +178,8 @@ A grouped bar chart, also known as a multi-set bar chart, is used when two or mo
 ### 3. Heat Map
 
 A heatmap is a graphical representation of data that uses a color-coding system to represent different values. Heatmaps are excellent for expressing variation across several variables, uncovering patterns, displaying related variables, and revealing relationships between them.
+
+![heatmap](https://github.com/djeada/Data-Visualization/assets/37275728/3b50c098-2b9d-4486-8f81-8862eaa92eb1)
 
 **Usecases:**
 - Visualizing the average monthly temperatures across the year or departments with the highest attrition rate over time.
@@ -187,6 +195,8 @@ A heatmap is a graphical representation of data that uses a color-coding system 
 
 As the name suggests, table charts are used to present tabular data.
 
+![table_chart](https://github.com/djeada/Data-Visualization/assets/37275728/e67c5319-9b1b-42f8-9278-15c243fb8af8)
+
 **Usecases:**
 - Visualizing an account executive leaderboard or registrations per webinar.
 - Displaying summary statistics for different categories.
@@ -198,6 +208,8 @@ As the name suggests, table charts are used to present tabular data.
 ### 2. Gauge Chart
 
 Gauge charts are used to visualize a single key performance indicator (KPI) or metric.
+
+![gauge_chart](https://github.com/djeada/Data-Visualization/assets/37275728/4ccdbe65-0109-46e6-a091-718de1b83227)
 
 **Usecases:**
 - Visualizing revenue to target.
