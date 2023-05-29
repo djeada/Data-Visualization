@@ -1,205 +1,207 @@
-## Intro
-Data visualization is used at several phases of the data science process:
+## Choosing Plot Type
 
-* At the very beginning, to gain early insights into an unknown data set.
-* Finally, when the data has been collected, analyzed, and modeled, the relationships must be shown in order to draw conclusions.
+Data visualization plays a critical role at various stages in the data science process. In the initial stages, it provides preliminary insights into an unfamiliar dataset. After the data has been gathered, analyzed, and modeled, visualizations help illustrate relationships and facilitate the drawing of conclusions. It serves as a tool for communicating insights through visually expressive elements like graphs, charts, maps, and diagrams, simplifying complex data interpretation, pattern discovery, trend identification, and predictive analysis.
 
-We employ data visualization as a tool for communicating data insights through visual representation.
-Graphs, charts, maps, and diagrams aid in the understanding of complicated data, the discovery of patterns, the identification of trends and making of predictions.
+Each plot type has its own set of advantages and disadvantages, necessitating a careful selection process. Consider the following questions before deciding:
 
-There is no silver bullet. Each plot type has its advantages and disadvantages. Before deciding on a plot type, consider the following questions:
+- What do you want to emphasize or illustrate (quantities, trends, correlations, geographic insights)?
+- Which visualization makes the data as easy to read and analyze as possible?
+- What is the conventional technique for displaying data in your field to avoid potential confusion?
+- Does the visualization maintain its clarity in black and white (for printing purposes)?
 
-* What do you wish to emphasize or demonstrate?
-  - How much / what percent?
-  - Trends
-  - Correlation
-  - Geographic insights  
-* Which visualization makes the data as easy to read and analyze as possible?
-* What is the standard technique of displaying data in your field (to avoid confusion)?
-* Does it still make sense in black and white (some people may want to print out your plots)? 
+Let's explore various types of graphs and charts, grouped by their purpose:
 
-Let's look at different graphs and charts grouped by their purpose:
+## Visualizing Relationships
 
-## Show relationship 
-
-A relationship approach is used to show a connection or correlation between two or more variables.
+Visualizing relationships involves demonstrating a connection or correlation between two or more variables.
 
 ### 1. Bar Chart
-Bar charts are useful for displaying the amount of different types of items at a certain point in time. The one axis of the chart represents the specific categories being compared, while the other axis represents a measured value.
 
-![Capture](https://user-images.githubusercontent.com/37275728/184005258-9f3884b8-3ed5-49d1-8b44-2b760e6fc1b6.PNG)
+Bar charts effectively display quantities of various item types at a specific time point. One axis of the chart represents the categories being compared, while the other signifies a measured value.
 
-Be aware that vertical bar charts and histograms are not the same thing (even though they look similarly). Histograms depict continuous changes over time.
+![Bar Chart Example](https://user-images.githubusercontent.com/37275728/184005258-9f3884b8-3ed5-49d1-8b44-2b760e6fc1b6.PNG)
 
-Vertical bar charts are frequently used to compare a single category of data to individual sub-items. 
+**Usecases:**
+- Comparing revenue across different areas.
+- Analyzing sales performance for different products.
 
-#### Usecases
-* Revenue across areas.
+**Disadvantages:**
+- Not effective for investigating time patterns or categorical data.
+- Limited to comparing a single category of data to individual sub-items.
 
-### 2. Scatter plot
-A scatter plot is a common type of graph in science. It is composed of several data points plotted on two axes.
+### 2. Scatter Plot
 
-![Capture](https://user-images.githubusercontent.com/37275728/184005392-a9576de8-6175-4c88-a297-d7b6e1e86f2d.PNG)
+A scatter plot is a widely used graph in scientific research, comprising several data points plotted on two axes.
 
-A scatter plot is used to determine the data's relationship with each variable, such as correlation or trend patterns. It also aids in the detection of outliers in the dataset.
+![Scatter Plot Example](https://user-images.githubusercontent.com/37275728/184005392-a9576de8-6175-4c88-a297-d7b6e1e86f2d.PNG)
 
-#### Usecases
-* Display the relationship between GPA and first salary.
+**Usecases:**
+- Displaying the relationship between GPA and initial salary.
+- Analyzing the correlation between advertising spending and sales.
 
-#### Disadvantages
-* If we want to investigate time patterns, scatter plots are unproductive.
-* A scatter plot is also not the best choice for categorical data.
+**Disadvantages:**
+- Not effective for investigating time patterns or categorical data.
+- Can become cluttered with a large number of data points.
 
 ### 3. Bubble Chart
-When we want to illustrate three variables simultaneously, we commonly utilize bubble charts (as opposed to showing only 2 in scatter plot).
-One variable is shown on the x-axis, another on the y-axis, and the third as the size of the bubble.
 
-#### Usecases
-* The relationship between life expectancy, per capita GDP and population size. 
+Bubble charts are employed when illustrating three variables simultaneously. One variable is represented on the x-axis, another on the y-axis, and the third as the size of the bubble.
 
-## Plotting data over time
-Sometimes knowing that a relationship exists between variables isn't enough; in certain circumstances, deeper analysis is suitable if we can additionally visualize when the relationship actually happened.
-The time appears as a link attribute because relationships are expressed by connections between variables.
-This visualization style displays data across time to identify the  patterns. 
+**Usecases:**
+- Demonstrating the relationship between life expectancy, per capita GDP, and population size.
+- Analyzing the correlation between temperature, humidity, and crop yield.
+
+**Disadvantages:**
+- Limited to visualizing three variables only.
+- Bubble size can sometimes make it difficult to accurately compare data points.
+
+## Visualizing Data Over Time
+
+In certain scenarios, the existence of a relationship between variables isn't sufficient; further analysis to visualize when the relationship occurred can be beneficial. This style of visualization presents data across time to identify patterns.
 
 ### 1. Line Chart
-Line charts are used to depict quantitative values across time.
 
-Line charts are created by first connecting data points on a cartesian coordinate grid.
-The y-axis usually has a numerical value, whereas the x-axis represents a timeframe or a series of intervals.
+Line charts depict quantitative values over time and are created by connecting data points on a Cartesian coordinate grid. The y-axis usually has a numerical value, while the x-axis represents a timeframe or a series of intervals. The orientation of the graph's line can indicate patterns in variable changes.
 
-The graph's line orientation serves as a great metaphor for the data: an upward slope suggests growing values, while a downward slope shows decreasing values. All of the lines have the potential to indicate patterns in variable changes. 
-
-#### Usecases
-* Revenue in dollars over time
-* Energy consumption in kWh over time
-* Google searches over time
+**Usecases:**
+- Visualizing revenue, energy consumption, or Google searches over time.
+- Tracking stock prices and identifying trends.
 
 ### 2. Area Chart
 
-An area chart is built on the concept of a line chart. The colored area depicts the distribution of the total value over time. Area charts are excellent for displaying the amount of change between two or more data points.
+An area chart builds upon the concept of a line chart. The colored area signifies the distribution of the total value over time. These charts are excellent for showcasing changes between two or more data points.
 
-#### Usecases
-* Total sales over time
-* Active users over time
+**Usecases:**
+- Visualizing total sales or active users over time.
+- Analyzing the distribution of website traffic throughout the day.
 
-#### Disadvantages
-* Area charts are not the best choice if we want to present fluctuating values, like the stock market or price changes.
-* The exact values of the two (or more) areas at a given time cannot be compared directly (line chart is better in that case).
+**Disadvantages:**
+- Not ideal for displaying fluctuating values or comparing exact values of two (or more) areas at a specific time.
+- Can obscure smaller fluctuations due to the area filling.
 
 ### 3. Stack Area Chart
-The stack area chart concept is based on area charts. It shows the value of many groups on the same graph. Each group's values are shown on top of one another.
 
-![Capture](https://user-images.githubusercontent.com/37275728/184005506-e11296cb-a330-4def-b193-cdb4e57b1c6d.PNG)
+A stack area chart is an extension of an area chart, showing the values of multiple groups on a single graph with group values stacked on top of each other.
 
-Stacked area charts are visually appealing and entertaining, but they should be used with caution since they may easily become unreadable. We should not group more than three categories together. 
+![Stack Area Chart Example](https://user-images.githubusercontent.com/37275728/184005506-e11296cb-a330-4def-b193-cdb4e57b1c6d.PNG)
 
-#### Usecases
-* Active users over time by segment
-* Total revenue over time by country
+**Usecases:**
+- Visualizing active users over time by segment or total revenue over time by country.
+- Analyzing the distribution of expenses across different categories over time.
 
-#### Disadvantages
-* Because stacked area charts only display whole integers, they cannot display negative values.
+**Disadvantages:**
+- Only display whole integers, cannot display negative values.
+- Can become visually cluttered when there are too many stacked categories.
 
-## Distribution plot
-Distribution plots display the distribution of sample data by comparing the empirical distribution of the data to the theoretical values anticipated given a specific distribution.
-To assess if the sample data could be described by certain distribution, you can use distribution charts in addition to more formal hypothesis testing. 
+## Distribution Plots
+
+Distribution plots illustrate the sample data distribution by comparing the empirical distribution of the data to theoretical values. These charts can be used in addition to formal hypothesis testing to assess if the sample data could be represented by a specific distribution.
 
 ### 1. Histogram
 
-A histogram depicts the distribution of a variable.
-When we have measurements taken with reasonable precision, we have a situation in which each value is unique, therefore instead of presenting counts of a single value (as in a bar chart), we depict the frequency of data points falling within a specified range.
-We divide the entire range of a value between min and max into n equal parts called bins and then illustrate how frequently data points fall into each bin.
-The x-axis represents the range, while the y-axis represents the frequency.
+A histogram displays the distribution of a variable by showing the frequency of data points falling within a specific range.
 
-![Capture](https://user-images.githubusercontent.com/37275728/184005703-160ea802-b4e9-49c0-be20-391941e3bcef.PNG)
+![Histogram Example](https://user-images.githubusercontent.com/37275728/184005703-160ea802-b4e9-49c0-be20-391941e3bcef.PNG)
 
-#### Usecases
-* Average temperature distribution for a specific place. 
-* Salary distribution among software engineers in a specific city.
+**Usecases:**
+- Visualizing the average temperature or salary distribution in a specific city.
+- Analyzing the distribution of test scores in a classroom.
+
+**Disadvantages:**
+- Bin size selection can impact the interpretation of the distribution.
+- Not suitable for displaying individual data points.
 
 ### 2. Density Plot
 
-Density plots are essentially smooth histograms. This provides for a more accurate capture of the data's distribution shape. 
+Density plots are essentially smooth histograms, providing a more accurate capture of the data's distribution shape.
 
-![Capture](https://user-images.githubusercontent.com/37275728/184005893-df9c2054-a2d6-4707-969d-57d01fa39887.PNG)
+![Density Plot Example](https://user-images.githubusercontent.com/37275728/184005893-df9c2054-a2d6-4707-969d-57d01fa39887.PNG)
 
-#### Usecases
-* Distribution of price of hotel listing.
+**Usecases:**
+- Visualizing the distribution of hotel listing prices.
+- Analyzing the distribution of income levels in a population.
+
+**Disadvantages:**
+- Can be computationally intensive for large datasets.
+- Interpretation may be subjective due to smoothing techniques.
 
 ### 3. Box Plot
 
-A box plot is a graphical representation of the distribution of data. The idea is that a box will represent the 50% of the middle values, the top 25% will be shown above the box and bottom 25% will be shown below the box. Outliers are shown outside of the box area.
+A box plot is a graphical representation of the data distribution, with a box representing the middle 50% of values, the top 25% above the box, and the bottom 25% below the box. Outliers are shown outside the box area.
 
-A box plot is usually based on five essential summary statistics:
-* The minimum (excluding outliers)
-* The first quartile
-* The median (or second quartile)
-* The third quartile
-* The maximum (excluding outliers)
+![Box Plot Example](https://user-images.githubusercontent.com/37275728/184005970-6f7012c1-4f31-41b3-8f08-6f7bb8e380fa.PNG)
 
-![Capture](https://user-images.githubusercontent.com/37275728/184005970-6f7012c1-4f31-41b3-8f08-6f7bb8e380fa.PNG)
+**Usecases:**
+- Visualizing the time spent reading across readers.
+- Analyzing the distribution of product ratings across different categories.
 
-A box plot does not always contain these five figures and therefore, as a norm, a legend should be added with an explanation of what exactly is being shown.
+**Disadvantages:**
+- Can be challenging to understand for a non-scientific audience.
+- Limited information about the shape of the distribution.
 
-#### Usecases
-* Time spent reading across readers.
-
-#### Disadvantages
-* The box plot is appropriate for a scientific audience, but is difficult to understand for the general public
-
-## Part-to-whole charts
+## Part-to-Whole Charts
 
 ### 1. Pie Chart
 
-One of the most used methods for displaying part-to-whole is pie chart. A pie chart quickly gives the reader a general idea of the distribution of the total.
+Pie charts are commonly used to represent part-to-whole distributions. They give readers a quick understanding of the overall distribution.
 
-![Capture](https://user-images.githubusercontent.com/37275728/184006067-282e5efb-3295-48b6-83a2-29db0b5bd8c1.PNG)
+![Pie Chart Example](https://user-images.githubusercontent.com/37275728/184006067-282e5efb-3295-48b6-83a2-29db0b5bd8c1.PNG)
 
-#### Usecases
-* Market share of different databases.
+**Usecases:**
+- Visualizing the market share of different databases.
+- Analyzing the composition of a company's expenses.
 
-#### Disadvantages
-* It may be difficult for the readers to compare the individual parts to each other (if that's the emphasis it's better to use bar chart).
+**Disadvantages:**
+- Comparing individual parts to each other can be challenging for readers.
+- Difficult to accurately interpret small differences between sections.
 
-### 3. Grouped Bar Chart
+### 2. Grouped Bar Chart
 
-A grouped bar chart is also known as a multi-set bar chart. This type of bar chart is employed when two or more data series are presented side by side and categorized on the same axis.
+A grouped bar chart, also known as a multi-set bar chart, is used when two or more data series are presented side-by-side and categorized on the same axis.
 
-#### Usecases
-* Quarterly sales per region.
-* Total car sales by producer.
+**Usecases:**
+- Visualizing quarterly sales per region or total car sales by producer.
+- Comparing the performance of different products across different months.
 
-#### Disadvantages
-* They get increasingly difficult to read as the number of bars in one group increases.
+**Disadvantages:**
+- The readability decreases as the number of bars in one group increases.
+- Not suitable for displaying large datasets.
 
 ### 3. Heat Map
-A heatmap is a graphical depiction of data that use a color-coding method to represent various values. Heatmaps are effective for cross-referencing multivariate data by arranging variables in rows and columns and coloring cells inside a table.
 
-Heatmaps are excellent for expressing variation across numerous variables, exposing patterns, exhibiting related variables, and discovering relationships between them.
+A heatmap is a graphical representation of data that uses a color-coding system to represent different values. Heatmaps are excellent for expressing variation across several variables, uncovering patterns, displaying related variables, and revealing relationships between them.
 
-If one of the rows or columns is set to time intervals, heatmaps may also display how data evolves over time. 
+**Usecases:**
+- Visualizing the average monthly temperatures across the year or departments with the highest attrition rate over time.
+- Analyzing customer engagement across different products and time periods.
 
-#### Usecases
-* Average monthly temperatures across the year.
-* Departments with the highest amount of attrition over time.
+**Disadvantages:**
+- Heatmaps are better for broader numerical data ranges, but individual data points can be hard to distinguish due to color hues.
+- Not suitable for displaying textual or categorical data.
 
-#### Disadvantages
-* Heatmaps are better suited for portraying a broader range of numerical data. It is more difficult to distinguish between color hues and retrieve individual data points. 
+## Single Value Visualization
 
-## Visualize a single value
+### 1. Table Chart
 
-### 1. Table chart
-Table charts are used to present tabular data in a table, as the name implies.
+As the name suggests, table charts are used to present tabular data.
 
-#### Usecases
-* Account executive leaderboard
-* Registrations per webinar
+**Usecases:**
+- Visualizing an account executive leaderboard or registrations per webinar.
+- Displaying summary statistics for different categories.
 
-#### Disadvantages
-* Only useful for small datasets.
+**Disadvantages:**
+- Suitable only for small datasets.
+- Not effective for displaying trends or patterns.
 
-### 2. Gauge chart
+### 2. Gauge Chart
 
-#### Usecases
-* Revenue to target
+Gauge charts are used to visualize a single key performance indicator (KPI) or metric.
+
+**Usecases:**
+- Visualizing revenue to target.
+- Displaying customer satisfaction scores.
+
+**Disadvantages:**
+- Can be visually limited in terms of information conveyed.
+- Not suitable for displaying complex data relationships.
+
