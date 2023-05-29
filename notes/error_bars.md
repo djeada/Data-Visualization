@@ -10,9 +10,14 @@
 - **Range:** It simply denotes the difference between the maximum and minimum values in a dataset.
 
 ## Error Bar Placement
-- Depending on the plot type and the variable represented, error bars can be positioned vertically, horizontally, or both.
-- Typically, vertical error bars represent variability or uncertainty in the dependent variable.
-- Horizontal error bars depict the variability in the independent variable.
+
+Error bars can be placed in different ways on a graph, depending on what you're trying to show:
+
+- **Vertical error bars:** These are error bars that go up and down. They are typically used when you are showing changes in a measurement (like the height of a plant) over time or under different conditions. For example, if you measure the height of a plant every day, each measurement might be a little different because of small errors. Vertical error bars can show this variation.
+
+- **Horizontal error bars:** These go left and right. They are often used when the x-values (the values along the horizontal axis) have some uncertainty. For example, if you're plotting the age of a rock (which you're not exactly sure about) against its mineral content, you might use horizontal error bars to show the range of possible ages for each rock.
+
+- **Both vertical and horizontal error bars:** Sometimes, both the x-values and y-values have uncertainty. In this case, you might want to use both vertical and horizontal error bars. This will make it look like there's a little box around each point. For example, if you're plotting the position of a star in the sky, both the x-coordinate (right ascension) and y-coordinate (declination) might have some uncertainty, so you could use both vertical and horizontal error bars.
 
 ## Incorporating Error Bars into Plots
 - In bar charts, error bars are generally added to each bar, signifying the data's variability or confidence intervals.
@@ -23,13 +28,20 @@
 The calculation method for error bars depends on the error or variability type represented. Here's a brief overview of the computations for each type:
 
 - **SE:** The standard deviation divided by the square root of the sample size. 
-    $$ SE = \frac{SD}{\sqrt{n}} $$
+
+$$ SE = \frac{SD}{\sqrt{n}} $$
+    
 - **CI:** Computed using statistical methods, such as bootstrapping or parametric techniques.
-    $$ CI = \bar{x} \pm z \left(\frac{SD}{\sqrt{n}}\right) $$
+
+$$ CI = \bar{x} \pm z \left(\frac{SD}{\sqrt{n}}\right) $$
+    
 - **SD:** A measure of how spread out the data points are around the mean.
-    $$ SD = \sqrt{\frac{\sum{(x_i - \bar{x})^2}}{n-1}} $$
+
+$$ SD = \sqrt{\frac{\sum{(x_i - \bar{x})^2}}{n-1}} $$
+    
 - **SEM:** Similar to the SE, it's calculated by dividing the standard deviation by the square root of the sample size.
-    $$ SEM = \frac{SD}{\sqrt{n}} $$
+    
+$$ SEM = \frac{SD}{\sqrt{n}} $$
 
 ## Customizing Error Bars
 - Error bars should be styled to fit the visualization and convey the desired level of detail. Consider adjusting the line style, width, color, or end-cap style.
