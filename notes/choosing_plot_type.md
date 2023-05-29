@@ -26,7 +26,7 @@ Bar charts effectively display quantities of various item types at a specific ti
 - Analyzing sales performance for different products.
 
 **Disadvantages:**
-- Not effective for investigating time patterns or categorical data.
+- Not effective for investigating time-series patterns.
 - Limited to comparing a single category of data to individual sub-items.
 
 ### 2. Scatter Plot
@@ -40,7 +40,7 @@ A scatter plot is a widely used graph in scientific research, comprising several
 - Analyzing the correlation between advertising spending and sales.
 
 **Disadvantages:**
-- Not effective for investigating time patterns or categorical data.
+- Not primarily designed for investigating time patterns, though adaptations can be made.
 - Can become cluttered with a large number of data points.
 
 ### 3. Bubble Chart
@@ -54,7 +54,7 @@ Bubble charts are employed when illustrating three variables simultaneously. One
 - Analyzing the correlation between temperature, humidity, and crop yield.
 
 **Disadvantages:**
-- Limited to visualizing three variables only.
+- Traditional bubble charts are limited to visualizing three variables. Variations like 3D bubble charts or bubble timeline charts can represent more variables.
 - Bubble size can sometimes make it difficult to accurately compare data points.
 
 ## Visualizing Data Over Time
@@ -96,8 +96,8 @@ A stack area chart is an extension of an area chart, showing the values of multi
 - Analyzing the distribution of expenses across different categories over time.
 
 **Disadvantages:**
-- Only display whole integers, cannot display negative values.
 - Can become visually cluttered when there are too many stacked categories.
+- Interpretation can be confusing with negative values or fluctuating data.
 
 ## Distribution Plots
 
@@ -158,7 +158,7 @@ Pie charts are commonly used to represent part-to-whole distributions. They give
 - Analyzing the composition of a company's expenses.
 
 **Disadvantages:**
-- Comparing individual parts to each other can be challenging for readers.
+- Comparing individual parts to each other can be challenging for readers, especially when sections are of similar size.
 - Difficult to accurately interpret small differences between sections.
 
 ### 2. Grouped Bar Chart
@@ -217,5 +217,4 @@ Gauge charts are used to visualize a single key performance indicator (KPI) or m
 
 **Disadvantages:**
 - Can be visually limited in terms of information conveyed.
-- Not suitable for displaying complex data relationships.
-
+- Primarily focused on illustrating a single data point or metric within a defined range or scale, rather than displaying complex data relationships.
