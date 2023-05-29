@@ -47,6 +47,8 @@ A scatter plot is a widely used graph in scientific research, comprising several
 
 Bubble charts are employed when illustrating three variables simultaneously. One variable is represented on the x-axis, another on the y-axis, and the third as the size of the bubble.
 
+![bubble_plot](https://github.com/djeada/Data-Visualization/assets/37275728/085461d7-8ff6-4530-8fdc-a9d7eb4784e7)
+
 **Usecases:**
 - Demonstrating the relationship between life expectancy, per capita GDP, and population size.
 - Analyzing the correlation between temperature, humidity, and crop yield.
