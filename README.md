@@ -65,6 +65,26 @@ To run these notebooks, you have two options:
 | 11 | Discusses the ethics of data visualization and how to avoid data misrepresentation. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/data_misrepresentation.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
 | 12 | Covers advanced topics on how to create dashboards for presenting multiple visualizations. | <a href="https://github.com/djeada/Data-Visualization/blob/main/notes/dashboards.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /> </a>  |
 
+## Examples
+
+| Description                                                                                                                     | Altair |
+|---------------------------------------------------------------------------------------------------------------------------------|------------|
+| Plotting a single line, typically the simplest form of data visualization.                                                     | ![single_line](https://github.com/djeada/Data-Visualization/assets/37275728/80fb9cdf-7296-4d48-94fa-da181b78fcb0) |
+| Plotting two lines, slightly more complex than a single line.                                                                   | ![two_lines](https://github.com/djeada/Data-Visualization/assets/37275728/6645431b-7b15-4581-ba4b-cf73636093c1) |
+| Bar plots represent categorical data with rectangular bars.                                                                     | ![bar_plot](https://github.com/djeada/Data-Visualization/assets/37275728/8334be80-8fb2-476c-81d5-f676892afac8) |
+| Pie charts represent proportions or percentages in a whole.                                                                     | [Screenshot](link_to_screenshot) |
+| Line charts represent continuous data with lines connecting data points.                                                        | [Screenshot](link_to_screenshot) |
+| Histograms display frequency distributions using bins and frequencies.                                                         | [Screenshot](link_to_screenshot) |
+| Area charts are similar to line charts but with the area under the line filled in.                                              | ![area_chart](https://github.com/djeada/Data-Visualization/assets/37275728/53b37c60-7323-4823-b896-a0c548f30068) |
+| Stacked area charts involve layering multiple datasets.                                                                         | [Screenshot](link_to_screenshot) |
+| Grouped bar charts involve grouping bars based on categories.                                                                   | [Screenshot](link_to_screenshot) |
+| Box plots show the distribution of data using a five-number summary.                                                            | [Screenshot](link_to_screenshot) |
+| Density plots display data distribution using kernel density estimation.                                                       | [Screenshot](link_to_screenshot) |
+| Error bar plots show the error or uncertainty associated with data points.                                                      | [Screenshot](link_to_screenshot) |
+| Bubble charts represent data using marker size as the third dimension.                                                         | [Screenshot](link_to_screenshot) |
+| Correlation heatmaps display complex multi-dimensional data and correlations.                                                   | [Screenshot](link_to_screenshot) |
+| Anscombe's Quartet explores datasets with the same statistical properties but different visual appearances.                      | [Screenshot](link_to_screenshot) |
+
 ## 📚 Additional Resources
 
 - Scientific-looking matplotlib graphs: [SciencePlots](https://github.com/garrettj403/SciencePlots)
