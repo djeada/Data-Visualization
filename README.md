@@ -67,23 +67,23 @@ To run these notebooks, you have two options:
 
 ## Examples
 
-| Description                                                                                                                     | Altair |
-|---------------------------------------------------------------------------------------------------------------------------------|------------|
-| Plotting a single line, typically the simplest form of data visualization.                                                     | ![single_line](https://github.com/djeada/Data-Visualization/assets/37275728/80fb9cdf-7296-4d48-94fa-da181b78fcb0) |
-| Plotting two lines, slightly more complex than a single line.                                                                   | ![two_lines](https://github.com/djeada/Data-Visualization/assets/37275728/6645431b-7b15-4581-ba4b-cf73636093c1) |
-| Bar plots represent categorical data with rectangular bars.                                                                     | ![bar_plot](https://github.com/djeada/Data-Visualization/assets/37275728/8334be80-8fb2-476c-81d5-f676892afac8) |
-| Pie charts represent proportions or percentages in a whole.                                                                     | ![pie_chart](https://github.com/djeada/Data-Visualization/assets/37275728/4142b933-60d6-48ce-adfd-21a39900e590) |
-| Line charts represent continuous data with lines connecting data points.                                                        | ![line_chart](https://github.com/djeada/Data-Visualization/assets/37275728/0bf77378-4450-4069-a597-161b10935629)|
-| Histograms display frequency distributions using bins and frequencies.                                                         | ![histogram](https://github.com/djeada/Data-Visualization/assets/37275728/522b2140-4c54-447d-bdf8-abb16d478e70) |
-| Area charts are similar to line charts but with the area under the line filled in.                                              | ![area_chart](https://github.com/djeada/Data-Visualization/assets/37275728/53b37c60-7323-4823-b896-a0c548f30068) |
-| Stacked area charts involve layering multiple datasets.                                                                         | ![stacked_area_chart](https://github.com/djeada/Data-Visualization/assets/37275728/397dedc7-6700-49e6-a97b-a85a4301f378) |
-| Grouped bar charts involve grouping bars based on categories.                                                                   | ![grouped_bar_chart](https://github.com/djeada/Data-Visualization/assets/37275728/39b2f769-e532-4de5-8571-10381be8c89b) |
-| Box plots show the distribution of data using a five-number summary.                                                            | ![box_plot](https://github.com/djeada/Data-Visualization/assets/37275728/10e1a68b-3c49-4991-85f7-04d51d40fc12) |
-| Density plots display data distribution using kernel density estimation.                                                       | [Screenshot](link_to_screenshot) |
-| Error bar plots show the error or uncertainty associated with data points.                                                      | [Screenshot](link_to_screenshot) |
-| Bubble charts represent data using marker size as the third dimension.                                                         | [Screenshot](link_to_screenshot) |
-| Correlation heatmaps display complex multi-dimensional data and correlations.                                                   | [Screenshot](link_to_screenshot) |
-| Anscombe's Quartet explores datasets with the same statistical properties but different visual appearances.                      | [Screenshot](link_to_screenshot) |
+| Description                                                                                                                     | Altair | Plotly | Matplotlib |
+|---------------------------------------------------------------------------------------------------------------------------------|--------| ------ | ---------- |
+| Plotting a single line, typically the simplest form of data visualization.                                                     | ![single_line](https://github.com/djeada/Data-Visualization/assets/37275728/80fb9cdf-7296-4d48-94fa-da181b78fcb0) | | |
+| Plotting two lines, slightly more complex than a single line.                                                                   | ![two_lines](https://github.com/djeada/Data-Visualization/assets/37275728/6645431b-7b15-4581-ba4b-cf73636093c1) | | |
+| Bar plots represent categorical data with rectangular bars.                                                                     | ![bar_plot](https://github.com/djeada/Data-Visualization/assets/37275728/8334be80-8fb2-476c-81d5-f676892afac8) | | |
+| Pie charts represent proportions or percentages in a whole.                                                                     | ![pie_chart](https://github.com/djeada/Data-Visualization/assets/37275728/4142b933-60d6-48ce-adfd-21a39900e590) | | |
+| Line charts represent continuous data with lines connecting data points.                                                        | ![line_chart](https://github.com/djeada/Data-Visualization/assets/37275728/0bf77378-4450-4069-a597-161b10935629)| | |
+| Histograms display frequency distributions using bins and frequencies.                                                         | ![histogram](https://github.com/djeada/Data-Visualization/assets/37275728/522b2140-4c54-447d-bdf8-abb16d478e70) | | |
+| Area charts are similar to line charts but with the area under the line filled in.                                              | ![area_chart](https://github.com/djeada/Data-Visualization/assets/37275728/53b37c60-7323-4823-b896-a0c548f30068) | | |
+| Stacked area charts involve layering multiple datasets.                                                                         | ![stacked_area_chart](https://github.com/djeada/Data-Visualization/assets/37275728/397dedc7-6700-49e6-a97b-a85a4301f378) | | |
+| Grouped bar charts involve grouping bars based on categories.                                                                   | ![grouped_bar_chart](https://github.com/djeada/Data-Visualization/assets/37275728/39b2f769-e532-4de5-8571-10381be8c89b) | | |
+| Box plots show the distribution of data using a five-number summary.                                                            | ![box_plot](https://github.com/djeada/Data-Visualization/assets/37275728/10e1a68b-3c49-4991-85f7-04d51d40fc12) | | |
+| Density plots display data distribution using kernel density estimation.                                                       | ![density_plot](https://github.com/djeada/Data-Visualization/assets/37275728/7c632c65-bd1b-458b-b4fc-f0664ca81554) | | |
+| Error bar plots show the error or uncertainty associated with data points.                                                      | ![error_plot](https://github.com/djeada/Data-Visualization/assets/37275728/6515209d-99c3-4062-850a-47268b807fb4) | | |
+| Bubble charts represent data using marker size as the third dimension.                                                         | ![bubble_chart](https://github.com/djeada/Data-Visualization/assets/37275728/9b995083-3277-4740-baee-aed8ae654621) | | |
+| Correlation heatmaps display complex multi-dimensional data and correlations.                                                   | ![correlation_heatmap](https://github.com/djeada/Data-Visualization/assets/37275728/b9d322dc-d436-424b-8d41-6da1be24fa2e) | | |
+| Anscombe's Quartet explores datasets with the same statistical properties but different visual appearances.                      | ![anscombes_quartet](https://github.com/djeada/Data-Visualization/assets/37275728/d1b3b94f-e3e8-44e2-98e0-77d9c0c4564d) | ![anscombes_quartet](https://github.com/djeada/Data-Visualization/assets/37275728/4dc82312-87e0-4ed4-937f-e60d669be6b2) |![anscombes_quartet](https://github.com/djeada/Data-Visualization/assets/37275728/27665ea9-88b1-44cc-aa90-7a8bccf7ee99) |
 
 ## 📚 Additional Resources
 
