@@ -2,6 +2,8 @@
 
 Welcome! This repository is dedicated to the exploration of various data visualization frameworks through bite-sized code snippets, as well as providing insights on effective data visualization techniques and principles. 
 
+![data_visualization](https://github.com/user-attachments/assets/656c44b9-3bed-4ac5-9622-935a4f8563ca)
+
 ## 🎯 Purpose
 
 The goal of this repository is to serve as a practical guide for understanding the strengths and drawbacks of diverse data visualization frameworks. Additionally, it encompasses my own reflections on the topic of data visualization.
